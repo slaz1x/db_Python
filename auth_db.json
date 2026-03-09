@@ -8,6 +8,14 @@
       "issued_at": "2026-03-09T00:26:23Z",
       "expires_at": null,
       "enabled": true
+    },
+    {
+      "hwid": "HFDKJDK9435GMG",
+      "code": "5CVP-7F58",
+      "plan": "3d",
+      "issued_at": "2026-03-09T00:35:37Z",
+      "expires_at": "2026-03-12T00:35:37Z",
+      "enabled": true
     }
   ]
 }
