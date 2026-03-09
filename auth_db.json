@@ -3,10 +3,10 @@
   "users": [
     {
       "hwid": "XV656ROHVP6JJN32",
-      "code": "S5RR-9SLE",
-      "plan": "life",
-      "issued_at": "2026-03-09T00:26:23Z",
-      "expires_at": null,
+      "code": "G47F-SQ8P",
+      "plan": "30d",
+      "issued_at": "2026-03-09T03:51:09+03:00",
+      "expires_at": "2026-04-08T03:51:09+03:00",
       "enabled": true
     },
     {
