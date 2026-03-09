@@ -1,18 +1,21 @@
 import argparse
+from datetime import timezone, timedelta
 import json
 import os
 import secrets
 from datetime import datetime, timedelta, timezone
 
+MSK = timezone(timedelta(hours=3))
+
 DB_PATH = "auth_db.json"
 
 ALPHABET = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"  # без 0/O/I/1
 
-def now_utc():
-    return datetime.now(timezone.utc)
+def now_msk():
+    return datetime.now(MSK)
 
 def iso(dt: datetime) -> str:
-    return dt.replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    return dt.replace(microsecond=0).isoformat()
 
 def parse_iso(s: str) -> datetime:
     return datetime.fromisoformat(s.replace("Z", "+00:00")).astimezone(timezone.utc)
@@ -28,7 +31,7 @@ def calc_expires(plan: str):
         return None
     if plan.endswith("d"):
         days = int(plan[:-1])
-        return now_utc() + timedelta(days=days)
+        return now_msk() + timedelta(days=days)
     raise ValueError("plan must be 3d/7d/30d or life")
 
 def load_db(path: str) -> dict:
@@ -47,7 +50,7 @@ def save_db(path: str, db: dict) -> None:
         json.dump(db, f, indent=2, ensure_ascii=False)
 
 def upsert_user(db: dict, hwid: str, plan: str, code: str | None, enabled: bool, note: str | None):
-    issued = now_utc()
+    issued = now_msk()
     exp_dt = calc_expires(plan)
     exp_iso = iso(exp_dt) if exp_dt else None
     if code is None:
