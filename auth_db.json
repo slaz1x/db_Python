@@ -8,6 +8,14 @@
       "issued_at": "2026-03-09T12:32:29+03:00",
       "expires_at": "2026-04-08T12:32:29+03:00",
       "enabled": true
+    },
+    {
+      "hwid": "LZKTHVQ7OKKWQGVD",
+      "code": "TJME-4J5E",
+      "plan": "3d",
+      "issued_at": "2026-03-09T22:26:48+03:00",
+      "expires_at": "2026-03-12T22:26:48+03:00",
+      "enabled": true
     }
   ]
 }
