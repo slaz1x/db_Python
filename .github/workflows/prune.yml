@@ -1,0 +1,33 @@
+name: Prune expired users
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # каждый день 03:00 UTC
+  workflow_dispatch:
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: baza
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Prune DB
+        run: python prune_auth_db.py
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add auth_db.json
+          git commit -m "prune expired users"
+          git push
