@@ -1,21 +1,5 @@
 {
   "version": 1,
-  "users": [
-    {
-      "hwid": "XV656ROHVP6JJN32",
-      "code": "G47F-SQ8P",
-      "plan": "30d",
-      "issued_at": "2026-03-09T03:51:09+03:00",
-      "expires_at": "2026-04-08T03:51:09+03:00",
-      "enabled": true
-    },
-    {
-      "hwid": "HFDKJDK9435GMG",
-      "code": "5CVP-7F58",
-      "plan": "3d",
-      "issued_at": "2026-03-09T00:35:37Z",
-      "expires_at": "2026-03-12T00:35:37Z",
-      "enabled": true
-    }
+  "users": [ 
   ]
 }
