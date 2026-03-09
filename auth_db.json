@@ -1,13 +1,4 @@
 {
   "version": 1,
-  "users": [
-    {
-      "hwid": "XV656ROHVP6JJN32",
-      "code": "AE6P-AB6A",
-      "plan": "30d",
-      "issued_at": "2026-03-09T04:11:07+03:00",
-      "expires_at": "2026-04-08T04:11:07+03:00",
-      "enabled": true
-    }
-  ]
+  "users": []
 }
