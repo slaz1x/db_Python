@@ -31,11 +31,6 @@ def main():
             kept.append(u)
             continue
 
-        # отключённых можно НЕ удалять (оставляем)
-        # если хочешь удалять отключённых — убери этот блок
-        if not enabled:
-            kept.append(u)
-            continue
 
         try:
             exp_dt = parse_iso_utc(exp)
