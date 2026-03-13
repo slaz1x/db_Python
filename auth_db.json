@@ -24,6 +24,14 @@
       "issued_at": "2026-03-12T16:13:46+03:00",
       "expires_at": "2026-03-15T16:13:46+03:00",
       "enabled": true
+    },
+    {
+      "hwid": "NFUGS3ITC3TT4RTZ",
+      "code": "TVFV-DKVX",
+      "plan": "7d",
+      "issued_at": "2026-03-13T11:39:21+03:00",
+      "expires_at": "2026-03-20T11:39:21+03:00",
+      "enabled": true
     }
   ]
 }
