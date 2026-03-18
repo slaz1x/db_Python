@@ -24,6 +24,14 @@
       "issued_at": "2026-03-16T23:28:30+03:00",
       "expires_at": "2026-04-15T23:28:30+03:00",
       "enabled": true
+    },
+    {
+      "hwid": "2Z2RZ3MK7GGG7WRB",
+      "code": "BCEJ-C4NM",
+      "plan": "30d",
+      "issued_at": "2026-03-18T12:02:17+03:00",
+      "expires_at": "2026-04-17T12:02:17+03:00",
+      "enabled": true
     }
   ]
 }
