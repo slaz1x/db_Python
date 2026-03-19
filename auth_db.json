@@ -24,6 +24,14 @@
       "issued_at": "2026-03-16T23:28:30+03:00",
       "expires_at": "2026-04-15T23:28:30+03:00",
       "enabled": true
+    },
+    {
+      "hwid": "3DJYJWMNWMCOI7D2",
+      "code": "JRJV-8UZC",
+      "plan": "3d",
+      "issued_at": "2026-03-19T18:23:02+03:00",
+      "expires_at": "2026-03-22T18:23:02+03:00",
+      "enabled": true
     }
   ]
 }
