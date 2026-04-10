@@ -16,14 +16,6 @@
       "issued_at": "2026-03-21T15:35:49+03:00",
       "expires_at": "2026-04-20T15:35:49+03:00",
       "enabled": true
-    },
-    {
-      "hwid": "7UICVDFP4ROGWUIU",
-      "code": "66B9-FEGQ",
-      "plan": "3d",
-      "issued_at": "2026-04-06T18:07:57+03:00",
-      "expires_at": "2026-04-09T18:07:57+03:00",
-      "enabled": true
     }
   ]
 }
