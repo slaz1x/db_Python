@@ -1,13 +1,4 @@
 {
   "version": 1,
-  "users": [
-    {
-      "hwid": "JA7P7ZFYFT6UQKZF",
-      "code": "6C9D-6DXW",
-      "plan": "30d",
-      "issued_at": "2026-03-21T15:35:49+03:00",
-      "expires_at": "2026-04-20T15:35:49+03:00",
-      "enabled": true
-    }
-  ]
+  "users": []
 }
