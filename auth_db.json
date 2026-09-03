@@ -8,38 +8,6 @@
       "issued_at": "2026-09-03T17:26:12+03:00",
       "expires_at": null,
       "enabled": true
-    },
-    {
-      "hwid": "XFWN6LB74VSUXJ76",
-      "code": "V87U-Q9AZ",
-      "plan": "30d",
-      "issued_at": "2026-03-16T23:28:30+03:00",
-      "expires_at": "2026-04-15T23:28:30+03:00",
-      "enabled": true
-    },
-    {
-      "hwid": "JA7P7ZFYFT6UQKZF",
-      "code": "6C9D-6DXW",
-      "plan": "30d",
-      "issued_at": "2026-03-21T15:35:49+03:00",
-      "expires_at": "2026-04-20T15:35:49+03:00",
-      "enabled": true
-    },
-    {
-      "hwid": "L4G5VBN37656DVSA",
-      "code": "SMBL-4KTT",
-      "plan": "3d",
-      "issued_at": "2026-03-24T20:01:19+03:00",
-      "expires_at": "2026-03-27T20:01:19+03:00",
-      "enabled": true
-    },
-    {
-      "hwid": "7UICVDFP4ROGWUIU",
-      "code": "66B9-FEGQ",
-      "plan": "3d",
-      "issued_at": "2026-04-06T18:07:57+03:00",
-      "expires_at": "2026-04-09T18:07:57+03:00",
-      "enabled": true
     }
   ]
 }
