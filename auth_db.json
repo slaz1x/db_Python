@@ -3,10 +3,10 @@
   "users": [
     {
       "hwid": "GPQDAETFJCIOZ5E5",
-      "code": "55P3-G3HD",
-      "plan": "30d",
-      "issued_at": "2026-03-09T12:32:29+03:00",
-      "expires_at": "2026-04-08T12:32:29+03:00",
+      "code": "JBTA-C2BK",
+      "plan": "life",
+      "issued_at": "2026-09-03T17:26:12+03:00",
+      "expires_at": null,
       "enabled": true
     },
     {
